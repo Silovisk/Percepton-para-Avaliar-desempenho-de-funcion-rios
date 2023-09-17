@@ -5,7 +5,6 @@ Uma rede Perceptron é uma estrutura simples de rede neural que pode ser utiliza
 
 Suponha que você tenha dados históricos de desempenho de funcionários com duas características: número de tarefas concluídas e número de erros cometidos. Você deseja criar um modelo de Perceptron que classifique os funcionários com base nesses dados.
 
-Claro, aqui está a parte revisada:
 
 ## Instruções para Executar o Código
 
