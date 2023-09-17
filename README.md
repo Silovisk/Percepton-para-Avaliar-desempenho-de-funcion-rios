@@ -5,21 +5,42 @@ Uma rede Perceptron é uma estrutura simples de rede neural que pode ser utiliza
 
 Suponha que você tenha dados históricos de desempenho de funcionários com duas características: número de tarefas concluídas e número de erros cometidos. Você deseja criar um modelo de Perceptron que classifique os funcionários com base nesses dados.
 
+Claro, aqui está a parte revisada:
+
 ## Instruções para Executar o Código
 
-Para rodar o código, você precisa ter o Python instalado e ativar o ambiente virtual. Siga as instruções abaixo:
+Antes de executar o código, é necessário garantir que o Python esteja instalado em seu sistema.
 
-### Windows (Power Shell)
+**Ativação do Ambiente Virtual (Opcional)**
 
-```powershell
-.\venv\Scripts\activate
-python .\main.py
-```
-
-### Linux (Git Bash)
+Se desejar, você pode criar e ativar um ambiente virtual para isolar as dependências do projeto. Siga as instruções abaixo:
 
 ```bash
+# Criação do ambiente virtual (execute apenas uma vez)
+python -m venv venv
+
+# Ativação do ambiente virtual (dependendo do sistema)
+# Windows (Power Shell)
+.\venv\Scripts\Activate
+
+# Linux (Git Bash)
 source venv/Scripts/activate
+```
+
+**Instalação da Biblioteca**
+
+Se você ainda não tiver a biblioteca necessária, pode instalá-la usando o seguinte comando:
+
+```bash
+pip install scikit-learn
+```
+
+**Execução do Código**
+
+Agora que o ambiente virtual (se desejado) está ativado, você pode executar o código. Utilize o seguinte comando:
+
+```bash
+# Execute o código principal
 python main.py
 ```
 
